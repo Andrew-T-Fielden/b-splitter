@@ -127,7 +127,7 @@ export default function App() {
       <ul>
         {people.map((person) => (
           <li key={person}>
-            {person}: ${totals[person].toFixed(2)}
+            {person}: £{totals[person].toFixed(2)}
           </li>
         ))}
       </ul>
